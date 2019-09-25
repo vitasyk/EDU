@@ -1,72 +1,182 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My first WEB Page</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	
+	<title>Hello, world!</title>
+	<style>
+		.bs .row > .col, .bs .row > [class^="col-"] {
+			padding-top: .75rem;
+			padding-bottom: .75rem;
+			background-color: #5a6268;
+			border: 1px solid #000;
+			color: #fff;
+		}
+		.flex-col{
+			min-height: 10rem;
+			background-color: #ccc;
+		}
+	</style>
 </head>
-<body>
-<div>
-    <p align="center">SOMEMYTEXTUSUALY.</p>
-    <div align="center">
-    <a  href="http://nado.sale/" target="_blank" >NADO</a><br></div>
-    <a href="http://nado">n</a>
-    <link rel="stylesheet" href="">
-    <img src="" alt="">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto asperiores dicta dolorem doloremque eum
-        excepturi fugit itaque modi neque nobis, obcaecati possimus quam recusandae repudiandae sunt, ut vel, velit.</p>
-    <hr width="50%"/>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dignissimos distinctio dolor iusto labore
-        magni recusandae rerum ullam. Architecto, culpa dolor dolores eaque ipsa optio similique voluptas! Adipisci, ea,
-        perspiciatis!</p>
 
-    <img src="http://www.sololearn.com/images/tree.jpg" height="250px" width = "250px" border="1px" alt = "Мое первое src изображение"">
+<body bgcolor="#000000">
+<h1>NO YES allwayse Hello, my teck!</h1>
 
+<div class="bs">
+	<div class="container">
+		<h3>Колоники одинаковые</h3>
+		<div class="row">
+			<div class="col">1</div>
+			<div class="col">2</div>
+			<div class="col">3</div>
+			<div class="col">4</div>
+			<div class="col">5</div>
+			<div class="col">6</div>
+			
+		</div>
+		<h3>
+			<div class="mt-5">Установка ширины</div>
+		</h3>
+		
+		<div class="row">
+			<div class="col">Sidebar</div>
+			<div class="col-6">Content</div>
+			<div class="col">Sidebar2</div>
+		</div>
+		<h3>
+			<div class="mt-5">Переменная ширинва</div>
+		</h3>
+		
+		<div class="row">
+			<div class="col">Sidebar</div>
+			<div class="col-6">Content</div>
+			<div class="col-auto">Sidebar2</div>
+		</div>
+		<h3>
+			<div class="mt-5">Колнки одинаковой шрины</div>
+		</h3>
+		
+		<div class="row">
+			<div class="col">Sidebar</div>
+			<div class="col">Content</div>
+			<div class="w-100"></div>
+			<div class="col">Sidebar2</div>
+			<div class="col">Sidebar2</div>
+		</div>
+		<h3>
+			<div class="mt-5">Складывающиеся колонки</div>
+		</h3>
+		<div class="row">
+			<div class="col-md">col</div>
+			<div class="col-md">col</div>
+			<div class="col-md">col</div>
+		</div>
+		<h3>
+			<div class="mt-5">Комбинирование классов</div>
+		</h3>
+		<div class="row">
+			<div class="col-md-3 col-sm-4">Sidebar1</div>
+			<div class="col-md-6 col-sm-8">col</div>
+			<div class="col-md">Sidebar2</div>
+		</div>
+		<h3>
+			<div class="mt-5">Перполнение ряда</div>
+		</h3>
+		<div class="row">
+			<div class="col-md-3 col-sm-4">Sidebar1</div>
+			<div class="col-md-6 col-sm-8">col</div>
+			<div class="col-md-3">Sidebar2000000000</div>
+		</div>
+		<h3>
+			<div class="mt-5">Сброс отступов</div>
+		</h3>
+		<div class="row no-gutters">
+			<div class="col-md-3 col-sm-4">Sidebar1</div>
+			<div class="col-md-6 col-sm-8">col</div>
+			<div class="col-md-3">Sidebar2</div>
+		</div>
+		<h3>
+			<div class="mt-5">Выравнивание по вертикали</div>
+		</h3>
+		<div class="row flex-cols">
+			<div class="col">col1</div>
+			<div class="col">col3</div>
+			<div class="col">col3</div>
+			</div>
+		
+		<h3>
+			<div class="mt-5">Выравнивание по вертикали  раза</div>
+		</h3>
+		<div class="row flex-cols">
+			<div class="col">col1</div>
+			<div class="col">col3</div>
+			<div class="col">col3</div>
+		</div>
+		<h3>
+			<div class="mt-5"></div>
+		</h3>
+		<form action="url" method="post">
+		<input name="username" type="text" >
+		<input name="passworr" type="password">
+		<br>
+		<input type="radio" name="gender"	value="male"/>Male <br/>
+		<input type="radio" name="gender"	value="female"/>Femle <br/>
+		<hr>
+		
+		<input type="checkbox" name="gender"	value="1"/>Male <br/>
+		<input type="checkbox" name="gender"	value="2"/>Femle <br/>
+			<input type="submit" value="Submit"/>
+		
+		</form>
+		
+		<h1><span>Contact Me</span></h1>
+		<form>
+			<input type="text" name="name"/> <br>
+			<input type="email" name="email"/> <br>
+			<textarea name="message" id="1" cols="30" rows="10"  ></textarea><br>
+			
+			
+			<input type="radio" name="gender"	value="male"/>Male <br/>
+			<input type="radio" name="gender"	value="female"/>Femle <br/>
+			<input type="submit" value="SEND" class="submit"/> <br/>
+			<br/>
+		</form>
+		
+		
+		<h3>
+			<div class="mt-5"></div>
+		</h3>
 </div>
-
-<ul>
-    <li>Green</li>
-    <li>Bleu</li>
-    <li>Yelou</li>
-</ul>
-<ol>
-    <li>Green</li>
-    <li>Bleu</li>
-    <li>Yelou</li>
-</ol>
-
-<h1>My skills</h1>
-<ul>
-    <li><a href=""> HTML</a></li>
-    <li><a href="">CSS</a> </li>
-    <li><a href="">JAVA Script</a> </li>
-</ul>
-
-
-<ul>
-    <li>
-        <a href="https://www.sololearn.com">A</a>
-    <li>
-    B
-    </li>
-</ul>
-
-<table border="2" align="center" >
-    <tr>
-        <td>red</td>
-        <td>blue</td>
-        <td bgcolor="red" green</td>
-    </tr>
-    <tr>
-        <td rowspan="4" bgcolor="#5f9ea0">Yelow </td>
-        <td colspan="2" align="center">Orange</td>
-        <td>Cyan</td>
-    </tr>
-</table>
-
-
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<!--	browser-sync start &#45;&#45;server &#45;&#45;files "php/*.php,css/*.css,js/*.js,html/*.html,*.*"-->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+	<script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://localhost:3000/browser-sync/browser-sync-client.js?v=2.26.7'><\/script>".replace("HOST", location.hostname));
+    //]]></script>
 
 </body>
 </html>
